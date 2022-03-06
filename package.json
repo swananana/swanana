@@ -1,10 +1,11 @@
 {
-  "name": "swanasimransingh",
+  "name": "swanana",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export && touch out/.nojekyll",
     "start": "next start"
   },
   "dependencies": {
@@ -13,10 +14,11 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "animate.css": "^4.1.1",
+    "array-unique": "^0.3.2",
     "bootstrap": "^5.0.0-beta3",
     "global": "^4.4.0",
     "mdb-ui-kit": "^3.9.0",
-    "next": "11.1.2",
+    "next": "10.2.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
